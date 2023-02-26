@@ -55,7 +55,7 @@ Gets the image Tag to use when pulling the docker image
 */}}
 {{- define "frigate.imageTag" -}}
 {{- if .Values.image.tag }}
-{{ .Values.image.tag }}
+{{- .Values.image.tag -}}
 {{- else }}
 {{ .Chart.AppVersion }}
 {{- end }}
