@@ -3,6 +3,27 @@ entries:
   frigate:
   - apiVersion: v2
     appVersion: 0.12.0-beta8
+    created: "2023-02-26T16:40:18.480121848Z"
+    description: NVR With Realtime Object Detection for IP Cameras
+    digest: 146c019c94114b61593b8b1906c7575574cd0fbebce91e54069b0164ab0b9243
+    home: https://github.com/ewenix/helm-charts/tree/main/charts/frigate
+    icon: https://github.com/blakeblackshear/frigate/blob/master/docs/static/img/frigate.png
+    keywords:
+    - tensorflow
+    - coral
+    - ml
+    maintainers:
+    - email: conor@ewenix.org
+      name: conor
+    name: frigate
+    sources:
+    - https://github.com/blakeblackshear/frigate
+    type: application
+    urls:
+    - https://github.com/ewenix/helm-charts/releases/download/frigate-0.1.4/frigate-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 0.12.0-beta8
     created: "2023-02-26T16:11:03.687576324Z"
     description: NVR With Realtime Object Detection for IP Cameras
     digest: d78e07e77c6036aedecca1fa6f1d888d3137a460b0a5639c8d4c5cafc7bd33f8
@@ -85,4 +106,4 @@ entries:
     urls:
     - https://github.com/ewenix/helm-charts/releases/download/frigate-0.1.0/frigate-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-26T16:11:03.687595924Z"
+generated: "2023-02-26T16:40:18.480136947Z"
